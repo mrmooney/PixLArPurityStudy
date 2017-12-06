@@ -114,6 +114,7 @@ int main(int argc, char **argv) {
   TheMooneyFit->SetParameter(1,0.128*500.0);
   TheMooneyFit->SetParameter(2,25000.0);
 
+  TheMooneyFit->SetParLimits(1,10,5000.0);
   cout << endl;
   ChargeHistCol->Fit("TheMooneyFit","","",150,3000);
 
