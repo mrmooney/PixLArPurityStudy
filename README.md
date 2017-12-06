@@ -14,7 +14,7 @@ Tool for Measurement of Electron Lifetime at PixLAr
   
   Notes:
   
-    1. this is a basic measurement mainly for the purposes of PixLAr operations
+    1. this is a primitive measurement mainly for the purposes of PixLAr operations
     
     2. this should only be used with runs containing mostly cosmic triggers (has not been tested with beam runs)
     
